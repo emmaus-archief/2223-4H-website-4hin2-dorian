@@ -34,11 +34,10 @@ main {
 
 }
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1, h2, h3, h4 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-} 
-
+}
 p {
   margin: 10px 0px;
   text-align: left;            /* tekst links en rechts uitvullen */
@@ -61,8 +60,8 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: #5d6a6f;
+h1, h2, h3, h4 {
+      color: #b1dd8c;
 }
 
 .smalltext {
@@ -71,7 +70,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #5d6a6f;
+    color: #b1dd8c;
     text-decoration: none;
 }
 
@@ -106,5 +105,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: #5d6a6f;
+    background-color: #b1dd8c;
 }
