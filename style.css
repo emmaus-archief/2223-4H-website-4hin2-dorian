@@ -107,13 +107,24 @@ nav li a:hover {
 nav li a.active {
     background-color: #b1dd8c;
 }
-.nike-schoenen {
-  font-weight:bold;
-  
-  width:
-}
 
-.nike-air-vapormax {
-  height:250px;
-  width:260px;
+.artikel {
+  border:solid 2px green;
+}
+.artikel-foto {
+  height:190px;
+  width:268px;
+  float:left;
+}
+.artikel-foto2 {
+  height:214px;
+  width:320px;
+  float:left;
+}
+.artikel-naam {
+    font-weight:bold;
+  padding:10px;
+}
+.artikel-info {
+   padding-left:10px;
 }
