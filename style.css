@@ -84,7 +84,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #bababa;
     overflow: hidden;
 }
 
@@ -109,7 +109,7 @@ nav li a.active {
 }
 
 .artikel {
-  border:solid 2px green;
+  border:solid 2px black;
 }
 .artikel-foto {
   height:190px;
@@ -117,9 +117,10 @@ nav li a.active {
   float:left;
 }
 .artikel-foto2 {
-  height:214px;
-  width:320px;
+  height:190px;
+  width:260px;
   float:left;
+}
 }
 .artikel-naam {
     font-weight:bold;
