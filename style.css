@@ -34,7 +34,7 @@ main {
 
 }
 
-h1, h2, h3, h4 {                      /* geldt voor h1 en h2 en h3 */
+h1, h2, h3, h4, h5 {                      /* geldt voor h1 en h2 en h3 en h4 en h5 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
 }
@@ -64,6 +64,12 @@ h1, h2, h3, h4 {
       color: #b1dd8c;
 }
 
+h5 {
+  font-size: 20px;
+  color:#232323
+  
+}
+
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -84,7 +90,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #bababa;
+    background-color: #d6d6d6;
     overflow: hidden;
 }
 
@@ -109,7 +115,7 @@ nav li a.active {
 }
 
 .artikel {
-  border:solid 2px black;
+  border:solid 1px black;
 }
 .artikel-foto {
   height:190px;
@@ -125,6 +131,7 @@ nav li a.active {
 .artikel-naam {
     font-weight:bold;
   padding:10px;
+  font-size:500px;
 }
 .artikel-info {
    padding-left:10px;
