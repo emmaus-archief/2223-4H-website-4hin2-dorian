@@ -118,16 +118,20 @@ nav li a.active {
 .artikel {
   border:solid 1px black;
 }
-.artikel-foto {
+.artikel-foto-right {
   height:190px;
   width:268px;
-  float:left;
+  float:right;
 }
-.artikel-foto2 {
+.artikel-foto-left {
   height:190px;
   width:260px;
   float:left;
 }
+.artikel-adidas{
+  height:250px;
+  width:250px;
+  float:left;
 }
 .artikel-naam {
     font-weight:bold;
