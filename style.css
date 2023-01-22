@@ -36,7 +36,8 @@ main {
 
 h1, h2, h3, h4, h5 {                      /* geldt voor h1 en h2 en h3 en h4 en h5 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: center;     /* tekst centreren */
+  padding-top:10px;
 }
 p {
   margin: 10px 0px;
@@ -51,7 +52,7 @@ p {
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
+  float:right;
   width: 450px;
   padding-left:15px;
 }
@@ -93,6 +94,7 @@ nav ul {
     padding: 0;
     background-color: #d6d6d6;
     overflow: hidden;
+  border-radius:8px;
 }
 
 nav ul li {
@@ -108,10 +110,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+  border-radius:8px;
+  background-color: #aaaaaa;
 }
 
 nav li a.active {
+  border-radius:8px;
     background-color: #b1dd8c;
 }
 
