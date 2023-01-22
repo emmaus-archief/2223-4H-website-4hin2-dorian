@@ -118,9 +118,9 @@ nav li a.active {
 .artikel {
   border:solid 1px black;
 }
-.artikel-foto-right {
-  height:190px;
-  width:268px;
+.artikel-foto2 {
+  height:200px;
+  width:200px;
   float:right;
 }
 .artikel-foto-left {
