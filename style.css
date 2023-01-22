@@ -67,8 +67,8 @@ h1, h2, h3, h4 {
 
 h5 {
   font-size: 20px;
-  color:#232323
-  
+  color:#232323;
+  font-family: ITC Avant Garde Gothic Std,sans-serif;
 }
 
 .smalltext {
@@ -121,7 +121,7 @@ nav li a.active {
 .artikel-foto2 {
   height:200px;
   width:200px;
-  float:right;
+  float:left;
 }
 .artikel-foto-left {
   height:190px;
@@ -132,6 +132,8 @@ nav li a.active {
   height:250px;
   width:250px;
   float:left;
+  padding-left:5px;
+  padding-right:5px;
 }
 .artikel-naam {
     font-weight:bold;
